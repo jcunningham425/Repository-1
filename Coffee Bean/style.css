@@ -1,7 +1,39 @@
 .center{
     margin:auto;
     width:25%;
-    }
+   }
 
-body{Background-color:#b0c4de;}
+body{background-color: #b0c4de;}
 
+body.center {Background-color:#b0c4de;}
+
+body#about{
+    background-color: #FFA07A;
+}
+
+body#beans{
+    background-color: #9ACD32;
+}
+
+body#contact{
+    background-color: #CC9980;
+}
+
+body#specials{
+    background-color: #F0E68C;
+}
+
+body#pictures{
+    background-image: url(Images/beanbackground.png);
+    background-size: contain;
+    padding-top: 200px;
+
+}
+
+@font-face{font-family: "CoffeeBean"; src:url(Fonts/Action_Man.ttf)}
+
+h1{font-family: "CoffeeBean"; color: maroon;}
+
+@font-face{font-family: "Paragraph"; src:url(Fonts/AftaSansThin-Regular.otf)}
+
+p{font-family: "Paragraph";}
